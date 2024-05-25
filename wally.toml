@@ -1,0 +1,9 @@
+[package]
+name = "blackjackiee/epoxyish"
+description = "Epoxyish is a generic solution to springing values unlike before. You can animate various data types and automatically have the springs animate to your instances based on values you create and change. Written by iGottic https://devforum.roblox.com/t/epoxyish-a-modern-spring-solution"
+license = "MIT"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+authors = ["iGottic"]
+private = true
