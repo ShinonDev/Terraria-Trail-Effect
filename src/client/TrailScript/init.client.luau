@@ -17,8 +17,8 @@ local function onCharacterAdded(character)
 
 		if
 			#characters < MAX_CHARACTERS
-			and humanoid.WalkSpeed >= MAX_SPEED * 2
-			and humanoid.MoveDirection.Magnitude > 0
+			-- and humanoid.WalkSpeed >= MAX_SPEED * 2
+			-- and humanoid.MoveDirection.Magnitude > 0
 		then
 			if bool then
 				if hue >= 1 then
@@ -49,6 +49,7 @@ local function onCharacterAdded(character)
 					clonedLimb.Anchored = true
 					clonedLimb.Material = Enum.Material.ForceField
 					clonedLimb.Transparency = 1
+					limb.Transparency = 1
 					clonedLimb.Color = rainbow
 
 					for _, trash in clonedLimb:GetChildren() do
